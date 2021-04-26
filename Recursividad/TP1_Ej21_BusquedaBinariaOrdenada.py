@@ -30,9 +30,10 @@ def busqueda_binaria(vector, buscado, inicio, fin):
         else:
             return busqueda_binaria(vector, buscado, inicio, medio-1)
     else:
-        return -1
+        return "El numero ingresado no se encuentra el la lista."
 
 
 quicksort(datos,0, len(datos)-1)
 print(datos)
-print(busqueda_binaria(datos, 10, 0, len(datos)-1))
+numero = float(input("Ingrese el numero que desea buscar el la lista Datos: "))
+print("El numero ingresado esta en la posicion: ", busqueda_binaria(datos, numero, 0, len(datos)-1))
