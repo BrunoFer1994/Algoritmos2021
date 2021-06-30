@@ -6,3 +6,6 @@ cada misión de caza que emprendió, con la siguiente información: planeta visi
     d. indicar la cantidad de capturas realizadas por cada cazarrecompensas."""
 
 
+
+from pila import Pila
+from random import randint

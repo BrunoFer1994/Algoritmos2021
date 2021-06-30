@@ -18,6 +18,12 @@ class Pila(object):
     def elemento_cima(self):
         return self.__elementos[-1]
 
+    def print_pila(self):
+        print(self.__elementos)
+
+    def pila_llena(pila):
+        return pila.elemento_cima == len(pila.__elementos)-1
+
 # from random import randint
 
 # pila = Pila()

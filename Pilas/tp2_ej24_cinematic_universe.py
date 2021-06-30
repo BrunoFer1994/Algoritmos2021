@@ -6,4 +6,6 @@ implementar las funciones necesarias para resolver las siguientes actividades:
     d. mostrar todos los personajes cuyos nombre empiezan con C, D y G."""
 
 
-    
+
+from pila import Pila
+from random import randint

@@ -10,14 +10,14 @@ def usar_fuerza(mochila,pos):
     else:
         return -1
 
-print (usar_fuerza(mochila,3))
+print (usar_fuerza(mochila,2))
 
 
 
 
-#def barrido(vector):
-#    if(len(vector)>0):
-#        print (vector[0]):
-#        barrido(vector[1:])
-#
-#barrido (datos)
+def barrido(vector):
+    if(len(vector)>0):
+        print (vector[0])
+        barrido(vector[1:])
+
+barrido (datos)
